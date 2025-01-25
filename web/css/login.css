@@ -1,0 +1,59 @@
+ /* Estilo geral */
+ body {
+    background-color: #e5f6f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Cabeçalho */
+  .header-container {
+    background-color: #4fb3bf;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  /* Formulário */
+  .form-container {
+    height: 80vh; /* Centraliza verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-box {
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-control {
+    border-radius: 30px;
+  }
+
+  .btn-primary {
+    background-color: #4fb3bf;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  .btn-primary:hover {
+    background-color: #006666;
+    color: white;
+  }
+
+  .text-muted a {
+    color: #00b8d4;
+    text-decoration: none;
+  }
+
+  .text-muted a:hover {
+    text-decoration: underline;
+  }
